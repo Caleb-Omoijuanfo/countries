@@ -4,13 +4,21 @@
   --text-color: #363636;
 }
 
-h1 {
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--body-background);
+}
+
+h2 {
   color: var(--header-color);
   font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
   font-weight: 800;
 }
 
-h2 {
+h3 {
   color: var(--header-color);
   font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
   font-weight: 600;
